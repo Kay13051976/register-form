@@ -61,7 +61,7 @@ function checkInputLength(input, min, max) {
   } else if (input.value.length >= max) {
     showerror(
       input,
-      `${getInputCase(input)} must contains at least ${max} characters long`
+      `${getInputCase(input)} must contains at ${max} characters long`
     );
   } else {
     showsuccess(input);
